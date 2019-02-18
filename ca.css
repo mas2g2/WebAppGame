@@ -1,0 +1,77 @@
+label {
+        font-size : 14pt;
+        margin-left : 10px;
+        color : orange;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+* {box-sizing: border-box}
+.container {
+  padding: 16px;
+}
+#error{
+	color : red;
+}
+h1,h2{
+	text-align : center;
+	font-family : Helvetica;
+}
+#h1{
+	background-color : aqua;
+	border : 5px solid orange;
+	border-radius : 5%;
+	color : orange;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#h2{
+	border : 5px solid orange;
+        color : orange;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+h2{
+color : orange;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+button {
+    background-color: orange;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius : 15%;
+    cursor: pointer;
+    width: auto;
+}
+
+button:hover{
+    background-color : white;
+    color : orange;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+a {
+  color: dodgerblue;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+  margin-top : 15px;
+}
+
+body{
+        margin : 0;
+        background-image : url('background.png');
+        height : 100%;
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

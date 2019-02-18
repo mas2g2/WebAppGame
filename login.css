@@ -1,0 +1,67 @@
+#form{
+	border : 5px solid orange;
+        box-shadow : -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        border-radius : 5%;
+	padding : 15px;
+	width : 300px;
+	margin : auto;
+	background-color : aqua;
+}
+#container{
+	margin : auto;
+}
+label,span {
+
+        color : orange;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+#FailedLog{
+	color : red;
+}
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 80%;
+    padding: 12px 20px;
+    margin : 0 8px; 
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: orange;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius : 15%;
+    cursor: pointer;
+    width: auto;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    background-color: white;
+    color: orange;
+    
+}
+
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+body{
+        margin : 0;
+        background-image : url('background.png');
+        height : 100%;
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+span a{
+	color : orange;
+}

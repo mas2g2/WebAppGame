@@ -1,0 +1,62 @@
+div.menu{
+	width : 200px;
+}
+div.menu a{
+	background-color : orange;
+	color : white;
+	display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+div.menu a:hover{
+	background-color : white;
+        color : orange;
+}
+
+canvas{
+	margin-left : 400px;
+	border : 5px solid orange;
+	box-shadow : -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	border-radius : 5%;
+	background-color : aqua;
+}
+div#container h1,div#container h2{
+	text-align : center
+}
+#container{
+		margin : auto;
+		padding : 30px;
+/*		border : 5px solid orange;*/
+		width :600px;
+	/*	border-radius : 25%;*/
+		height : 150px;
+/*		box-shadow : -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+}
+a:link,a:visited{
+	text-decoration : none;
+}
+button:hover{
+	color : orange;
+	background-color : white;
+}
+.nice{	
+	color : orange;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+button {
+	border : none;
+	border-radius : 15%;
+	background-color : orange;
+	color : white;
+	
+}
+
+
+body{
+	margin : 0;
+	background-image : url('background.png');
+	height : 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

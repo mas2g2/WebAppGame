@@ -1,0 +1,70 @@
+body{
+        margin : 0;
+        background-image : url('background.png');
+        height : 100%;
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+label {
+        font-size : 14pt;
+        margin-left : 10px;
+        color : orange;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+a{
+        color : white;
+}
+a:link,a:visited{
+        text-decoration : none;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=submit] {
+    background-color: orange;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius : 15%;
+    cursor: pointer;
+    width: auto;
+
+}
+input[type=submit]:hover{
+        background-color: white;
+        color : orange;
+}
+button {
+        border : none;
+        border-radius : 15%;
+        background-color : orange;
+        color : white;
+        height : 42px;
+        width : 75px;
+}
+button:hover{
+        color : orange;
+        background-color : white;
+}
+#new_pass{
+	width : 600px;
+	background-color : aqua;
+        border : 5px solid orange;
+        box-shadow : -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        color : orange;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        border-radius : 5%;
+	margin : auto;
+}
